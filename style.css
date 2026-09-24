@@ -1,0 +1,128 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #2c3340;
+    line-height: 1.6;
+}
+
+.header {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.profile {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #496894;
+    object-fit: cover;
+}
+
+.profile h1 {
+    font-size: 28px;
+    margin-top: 15px;
+    color: #273b5c;
+}
+
+.job {
+    font-size: 16px;
+    color: #54647c;
+    margin-top: 8px;
+}
+
+.email {
+    font-size: 15px;
+    color: #2c3340;
+    margin-top: 12px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 10px 22px;
+    background-color: #3880c2;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 16px 40px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 8px #d8dee8;
+}
+
+.card h2 {
+    font-size: 22px;
+    color: #273b5c;
+    border-left: 5px solid #496894;
+    padding-left: 12px;
+    margin-bottom: 18px;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card li {
+    background-color: #f8fafc;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.item {
+    background-color: #f8fafc;
+    padding: 16px;
+    margin-bottom: 14px;
+    border-radius: 6px;
+}
+
+.item h3 {
+    color: #37537c;
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .banner img {
+        height: 140px;
+    }
+
+    .profile h1 {
+        font-size: 22px;
+    }
+}
